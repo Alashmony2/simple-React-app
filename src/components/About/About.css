@@ -1,0 +1,17 @@
+.about{
+    background-color: #1ABC9C;
+    margin-top: 8rem;
+    padding: 8rem 0;
+}
+
+.about h2{
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.about-info p{
+    font-size: 20px;
+    font-weight: 400;
+}

@@ -1,0 +1,40 @@
+.portfolio{
+    margin-top: 10rem;
+}
+
+.portfolio h2{
+    font-size: 48px ;
+    font-weight: 600 ;
+}
+
+.iteam img{
+    width: 95% !important;
+    position: relative;
+    z-index: 2;
+}
+
+
+.iteam  .layer {
+    background-color: rgba(58, 165, 145,1);
+    width: 96%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0;
+    left: 2%;
+    transition: all 1s;
+}
+
+.iteam:hover .layer{
+    z-index: 2;
+    opacity: .9;
+    cursor: pointer;
+}
+
+
+
+.layer i{
+    font-size: 85px;
+    color: white;
+}

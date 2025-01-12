@@ -1,0 +1,15 @@
+.contact{
+    margin-top: 10rem;
+}
+
+.contact h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.inputs form button{
+    background-color: #1ABC9C;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
